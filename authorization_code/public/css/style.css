@@ -14,24 +14,34 @@ nav{
 }
 
 form{
-    display: inline;
+    display: inline-flex;
 }
 
 .top,.bottom{
     margin: 0 40px;
     padding: 30px;
-    height: 600px;
-    background-color: #CCC;
     border-radius: 10px;
 }
-
+.top{
+        height: auto;
+}
+#info{
+        height: auto;
+        background-color: #CCC;
+        border-radius: 10px;
+}
+.artist-picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
 h3{
     margin: 0 15px;
 }
 input{
     margin: 10px;
     height: 40px;
-    width: 400px;
+    width: 800px;
     min-width: 200px;
     display: block;
 }
@@ -41,7 +51,7 @@ input{
     border-radius: 3px;
     color:white;
     height: 50px;
-    width: 120px;
+    width: 200px;
 }
 li{
     display: inline-flex;
